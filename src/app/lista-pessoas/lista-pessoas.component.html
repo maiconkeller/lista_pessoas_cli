@@ -1,0 +1,20 @@
+<h1>Lista de Pessoas</h1>
+
+<table style="width:100%">
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th>Sexo</th> 
+      <th>Idade</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <tr *ngFor="let p of pessoas">
+      <td>{{p.nome}}</td>
+      <td>{{p.sexo}}</td> 
+      <td>{{p.idade}}</td>
+    </tr>
+    
+  </tbody>
+</table>
